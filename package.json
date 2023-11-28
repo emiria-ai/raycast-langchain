@@ -15,11 +15,20 @@
       "title": "Show List and Detail",
       "description": "Template for showing a static list and a detail view",
       "mode": "view"
+    },
+    {
+      "name": "add-website",
+      "title": "Add Website Data",
+      "description": "Add Website Data",
+      "mode": "view"
     }
   ],
   "dependencies": {
     "@raycast/api": "^1.62.2",
-    "langchain": "^0.0.198"
+    "langchain": "^0.0.198",
+    "playwright": "^1.40.1",
+    "puppeteer": "^19.11.1",
+    "webforai": "^0.0.15"
   },
   "devDependencies": {
     "@raycast/eslint-config": "^1.0.6",
